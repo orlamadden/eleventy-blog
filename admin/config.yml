@@ -11,7 +11,7 @@ collections:
   - name: "posts"
     label: "Posts"
     folder: "posts"
-    create: true # Allow users to create new documents in this collection
+    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
